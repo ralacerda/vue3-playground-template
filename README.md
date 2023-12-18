@@ -1,52 +1,45 @@
-# vue3-playground-template
+# Vue 3 Playground Template
 
-This template should help get you started developing with Vue 3 in Vite.
+My simple template to start Vue3 new projects.
 
-## Recommended IDE Setup
+## How to use
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+[`degit`](degit) will download the latest commit.
 
 ```sh
-pnpm install
+npx degit ralacerda/vue3-playground-template new-project-name
 ```
 
-### Compile and Hot-Reload for Development
+Install the dependencies
 
-```sh
+```
+pnpm i
+```
+
+Run the dev server
+
+```
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## What this template includes
 
-```sh
-pnpm build
-```
+- Vue3
+- Typescript
+- Vite with the following plugins:
+    - unplugin-auto-import
+    - unplugin-vue-components
+    - unplugin-icons (with mdi icon set)
+    - vite-plugin-vue-devtools
+- Vitest and Vue Test Utils
+- Vue Router
+- Pinia
+- Vueuse (only core package)
+- SASS
+- Prettier
+- ESLint
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Packages that I might include:
 
-```sh
-pnpm test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- vueuse/motion
+- unplugin-turbo-console
