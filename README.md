@@ -4,10 +4,13 @@ My simple template to start Vue3 new projects.
 
 ## How to use
 
-[`degit`](degit) will download the latest commit.
+Use the command to [`giget`][giget] download the latest commit. You can include the `--install` flag to install dependencies after cloning.
 
 ```sh
-npx degit ralacerda/vue3-playground-template new-project-name
+npx giget gh:ralacerda/vue3-playground-template new-project-name
+
+# Or
+npx giget --install gh:ralacerda/vue3-playground-template new-project-name
 ```
 
 Install the dependencies
@@ -43,3 +46,5 @@ pnpm dev
 
 - vueuse/motion
 - unplugin-turbo-console
+
+[giget]: tps://pinia.vuejs.org/https://github.com/unjs/giget
