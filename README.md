@@ -27,20 +27,20 @@ pnpm dev
 
 ## What this template includes
 
-- Vue3
-- Typescript
-- Vite with the following plugins:
-    - unplugin-auto-import
-    - unplugin-vue-components
-    - unplugin-icons (with mdi icon set)
-    - vite-plugin-vue-devtools
-- Vitest and Vue Test Utils
-- Vue Router
-- Pinia
-- Vueuse (only core package)
-- SASS
-- Prettier
-- ESLint
+- [Vue3][vue]
+- [Typescript][typescript]
+- [Vite][vite] with the following plugins:
+    - [unplugin-auto-import][auto-import]
+    - [unplugin-vue-components][vue-componentes]
+    - [unplugin-icons][icons] ([with mdi icon set][mdi-icon-set])
+    - [vite-plugin-vue-devtools][devtools]
+- [Vitest][vitest] and [Vue Test Utils][vue-test-utils]
+- [Vue Router][vue-router]
+- [Pinia][pinia]
+- [Vueuse (only core package)][vueuse]
+- [SASS][sass]
+- [Prettier][prettier]
+- [ESLint][eslint]
 
 ## Packages that I might include:
 
@@ -48,3 +48,19 @@ pnpm dev
 - unplugin-turbo-console
 
 [giget]: tps://pinia.vuejs.org/https://github.com/unjs/giget
+[vue]: https://vuejs.org/
+[typescript]: https://www.typescriptlang.org/
+[vite]: https://vitejs.dev/
+[auto-import]: https://github.com/unplugin/unplugin-auto-import
+[vue-componentes]: https://github.com/unplugin/unplugin-vue-components
+[icons]: https://github.com/antfu/unplugin-icons
+[mdi-icon-set]: https://icon-sets.iconify.design/mdi/
+[devtools]: https://devtools-next.vuejs.org/
+[vitest]: https://vitest.dev/
+[vue-test-utils]: https://test-utils.vuejs.org/
+[vue-router]: https://router.vuejs.org/
+[pinia]: https://pinia.vuejs.org/
+[vueuse]: https://vueuse.org/
+[sass]: https://sass-lang.com/
+[prettier]: https://prettier.io/
+[eslint]: https://eslint.org/
