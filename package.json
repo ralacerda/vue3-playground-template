@@ -20,7 +20,6 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "jiti": "^2.4.2",
     "@iconify-json/mdi": "^1.2.3",
     "@rushstack/eslint-patch": "^1.10.5",
     "@tsconfig/node18": "^18.2.4",
@@ -34,6 +33,7 @@
     "@vueuse/core": "^12.7.0",
     "eslint": "^9.21.0",
     "eslint-plugin-vue": "^9.32.0",
+    "jiti": "^2.4.2",
     "jsdom": "^26.0.0",
     "npm-run-all2": "^7.0.2",
     "prettier": "^3.5.2",
@@ -46,5 +46,5 @@
     "vitest": "^3.0.6",
     "vue-tsc": "^2.2.2"
   },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "packageManager": "pnpm@10.4.1"
 }
