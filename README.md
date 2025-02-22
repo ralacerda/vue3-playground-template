@@ -30,10 +30,10 @@ pnpm dev
 - [Vue3][vue]
 - [Typescript][typescript]
 - [Vite][vite] with the following plugins:
-    - [unplugin-auto-import][auto-import]
-    - [unplugin-vue-components][vue-componentes]
-    - [unplugin-icons][icons] ([with mdi icon set][mdi-icon-set])
-    - [vite-plugin-vue-devtools][devtools]
+  - [unplugin-auto-import][auto-import]
+  - [unplugin-vue-components][vue-componentes]
+  - [unplugin-icons][icons] ([with mdi icon set][mdi-icon-set])
+  - [vite-plugin-vue-devtools][devtools]
 - [Vitest][vitest] and [Vue Test Utils][vue-test-utils]
 - [Vue Router][vue-router]
 - [Pinia][pinia]
@@ -47,7 +47,7 @@ pnpm dev
 - vueuse/motion
 - unplugin-turbo-console
 
-[giget]: tps://pinia.vuejs.org/https://github.com/unjs/giget
+[giget]: https://github.com/unjs/giget
 [vue]: https://vuejs.org/
 [typescript]: https://www.typescriptlang.org/
 [vite]: https://vitejs.dev/
