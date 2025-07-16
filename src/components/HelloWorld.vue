@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import PinapleIcon from '~icons/mdi/fruit-pineapple';
+import { useCounterStore } from "@/stores/counter";
+import PinapleIcon from "~icons/mdi/fruit-pineapple";
 
 const counterStore = useCounterStore();
 </script>
