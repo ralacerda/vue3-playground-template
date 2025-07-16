@@ -30,14 +30,13 @@ pnpm dev
 - [Vue3][vue]
 - [Typescript][typescript]
 - [Vite][vite] with the following plugins:
-  - [unplugin-auto-import][auto-import]
-  - [unplugin-vue-components][vue-componentes]
   - [unplugin-icons][icons] ([with mdi icon set][mdi-icon-set])
   - [vite-plugin-vue-devtools][devtools]
 - [Vitest][vitest] and [Vue Test Utils][vue-test-utils]
 - [Vue Router][vue-router]
 - [Pinia][pinia]
 - [Vueuse (only core package)][vueuse]
+- [PicoCSS][picocss]
 - [SASS][sass]
 - [Prettier][prettier]
 - [ESLint][eslint]
@@ -51,8 +50,6 @@ pnpm dev
 [vue]: https://vuejs.org/
 [typescript]: https://www.typescriptlang.org/
 [vite]: https://vitejs.dev/
-[auto-import]: https://github.com/unplugin/unplugin-auto-import
-[vue-componentes]: https://github.com/unplugin/unplugin-vue-components
 [icons]: https://github.com/antfu/unplugin-icons
 [mdi-icon-set]: https://icon-sets.iconify.design/mdi/
 [devtools]: https://devtools-next.vuejs.org/
@@ -61,6 +58,7 @@ pnpm dev
 [vue-router]: https://router.vuejs.org/
 [pinia]: https://pinia.vuejs.org/
 [vueuse]: https://vueuse.org/
+[picocss]: https://picocss.com/
 [sass]: https://sass-lang.com/
 [prettier]: https://prettier.io/
 [eslint]: https://eslint.org/
