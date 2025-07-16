@@ -13,7 +13,12 @@ export default defineConfigWithVueTs(
     ignores: ["**/dist/**", "**/dist-ssr/**", "**/coverage/**"],
   },
 
-  pluginVue.configs["flat/strongly-recommended"],
+  pluginVue.configs["flat/recommended"],
   vueTsConfigs.recommended,
   skipFormatting,
+  {
+    rules: {
+      "vue/no-undef-components": "warn",
+    },
+  },
 );
